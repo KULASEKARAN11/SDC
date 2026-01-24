@@ -3,6 +3,6 @@ using namespace std;
 int main()
 {
   cout<<"Hello World"<<endl;
-  cout<<"Hello World2"
+  cout<<"Hello World2";
   return 0;
 }
