@@ -31,7 +31,7 @@ public class Pattern {
 
             // Inner loop 2 prints star
             for (n = 1; n <= m * 2 - 1; n++) {
-                System.out.print("*");
+                System.out.print("$");
             }
 
             // Ending line after each row
@@ -49,7 +49,7 @@ public class Pattern {
 
             // Inner loop 2 print star
             for (n = 1; n <= m * 2 - 1; n++) {
-                System.out.print("*");
+                System.out.print("$");
             }
 
             // Ending line after each row
