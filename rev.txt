@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int check_password(int input)
+{
+    int secret = 1234;
+
+    if(input == secret)
+        return 1;
+    else
+        return 0;
+}
+
+int main()
+{
+    int password;
+
+    printf("Enter password: ");
+    scanf("%d", &password);
+
+    if(check_password(password))
+        printf("Access Granted\n");
+    else
+        printf("Access Denied\n");
+
+    return 0;
+}

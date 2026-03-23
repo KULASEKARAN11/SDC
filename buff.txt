@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+void vulnerable()
+{
+    char buffer[10];
+
+    printf("Enter text: ");
+    gets(buffer);   // unsafe function
+
+    printf("You entered: %s\n", buffer);
+}
+
+int main()
+{
+    vulnerable();
+    return 0;
+}
